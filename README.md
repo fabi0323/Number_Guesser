@@ -30,7 +30,7 @@ numberguesser
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
+| 1.1  | programm läuft |   random rummer      |       x            |
 | 2.1  |              |         |                   |
 | 3.1  |              |         |                   |
 
