@@ -21,8 +21,7 @@ numberguesser
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |   muss          | funktional     | programm soll zufällige nummer generieren damit das spiel nicht jedes mal das gleiche ist. |
-| 2    |   muss          | funktional     |input soll als zahl überprüft werden um crashes zu vermeiden.                                    |
-| 3    |   muss          | funktional     | dem nutzer wird mitgeteilt ob sein input kleiner oder grösser ist |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -30,9 +29,8 @@ numberguesser
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | programm läuft |   random rummer      |       x            |
-| 2.1  |              |         |                   |
-| 3.1  |              |         |                   |
+| 1.1  | programm läuft | start     |  zufällige nummer        |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -45,8 +43,9 @@ numberguesser
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
+| 1.A  |       |    ich    |              |               |
 | 1.B  |       |           |              |               |
+| 1.C  |       |           |              |               |
 
 Total: 
 
