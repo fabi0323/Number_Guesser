@@ -38,7 +38,8 @@ numberguesser
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+<img width="347" alt="Screenshot 2022-08-23 103330" src="https://user-images.githubusercontent.com/77541325/186111970-fb626316-bf80-4bed-88a3-1c79d762c09b.png">
+
 
 ## 2 Planen
 
