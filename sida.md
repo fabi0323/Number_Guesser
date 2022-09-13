@@ -8,7 +8,7 @@ Im Lernatelier mussten wir ein Number-Guesser Spiel programmieren.
 
 ## Was habe ich gelernt?
 
-Ich habe Gelernt wie man einen counter , der die anzahl versuche zählt, erstellt
+Ich habe Gelernt wie man einen counter , der die anzahl versuche zählt, erstellt.
 
 ## Beschreibung
 
