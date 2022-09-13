@@ -76,15 +76,21 @@ Zuletzt soll der Guess bei dem die Zahl erraten wurde auch noch gezählt und dan
 ## Verifikation
 
 Text: Beschreibung des Programms
+
 Bilder: Veranschaulichung counter
+
 Code : Veranschaulichung counter
+
 
 
 # Reflektion zum Arbeitsprozess
 
 👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+
 Ich habe alles schnell verstanden und war schnell fertig.
 Ich war zu beginn auch sehr motiviert.
+
 👎 und etwas, was nicht gut lief.
+
 Da ich schnell fertig war ging die Motivation auch schnell Bergab.
 daruch war auch die Projektdokumentation eher Mangelhaft.
