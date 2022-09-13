@@ -12,7 +12,6 @@ Ich habe Gelernt wie man einen counter , der die anzahl versuche zählt, erstell
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
 Da bei jeder eingabe überprüft werden muss ob die zahl stimmt, kleiner oder grösser ist habe ich Anfangs den counter dort jeweils um 1 erhöht.
 
@@ -28,7 +27,7 @@ Zuletzt soll der Guess bei dem die Zahl erraten wurde auch noch gezählt und dan
 
 <img width="270" alt="image" src="https://user-images.githubusercontent.com/77541325/189847575-c1dbad1b-e999-495d-877d-eb61b496c410.png">
 
-* Ein gut dokumentierter Code-Fetzen
+
 ```c#
 
                 if (y < 1)        //wenn ausserhalb des Rahmens
