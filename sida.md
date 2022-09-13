@@ -4,11 +4,11 @@ Fabian Meyer
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+Im Lernatelier mussten wir ein Number-Guesser Spiel programmieren.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Ich habe Gelernt wie man einen counter , der die anzahl versuche zählt, erstellt
 
 ## Beschreibung
 
@@ -17,7 +17,7 @@ Fabian Meyer
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+
 
 ## Verifikation
 
