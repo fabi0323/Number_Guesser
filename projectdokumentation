@@ -90,9 +90,13 @@ alles funktionert wie es soll
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
+| I    |       Start vom Programm       |    Buchstaben, Kommazahlen, Space,    |     Zurechtweisung             |           Error           |
+| ...  |       Fertig       |     Irgendwas    |        Restart            |   Abbruch                   |
+| ...  |       Im Spiel       |    korrket dann eine zu grosse Zahl     |         Zurechtweisung          |         Keine Fehlermeldung             |
+| ...  |              |         |                   |                      |
 | ...  |              |         |                   |                      |
 
+elias spycher
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
