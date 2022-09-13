@@ -24,14 +24,54 @@ Da ich noch genügend Zeit übrig hatte habe ich noch eine penalty eingefügt fa
 
 <img width="404" alt="image" src="https://user-images.githubusercontent.com/77541325/189847332-b4d4f6b2-72f7-43ab-a068-6b6407ed5514.png">
 
-Zuletzt soll der Guess bei dem die Zahl erraten wurde natürlich auch noch gezählt werden.
+Zuletzt soll der Guess bei dem die Zahl erraten wurde auch noch gezählt und danach die Anzahl Guesses angezeigt werden.
 
 <img width="270" alt="image" src="https://user-images.githubusercontent.com/77541325/189847575-c1dbad1b-e999-495d-877d-eb61b496c410.png">
 
-
-
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
+```c#
+
+                if (y < 1)        //wenn ausserhalb des Rahmens
+                {
+                    Console.WriteLine("only numbers bigger than 0, 1 guess penalty");
+                    Console.WriteLine("enter a new Number");
+                    nutzer_input = Convert.ToInt32(Console.ReadLine()); //neuer Guess
+                    y = nutzer_input;
+                    counter = counter +2; //counter und Penalty werden hinzugefügt
+                }
+                if (y > 100)      //wenn ausserhalb des Rahmens
+                {
+                    Console.WriteLine("only numbers smaller than 101, 1 guess penalty");
+                    Console.WriteLine("enter a new Number");
+                    nutzer_input = Convert.ToInt32(Console.ReadLine()); // neuer Guess
+                    y = nutzer_input;
+                    counter = counter + 2;   //counter und Penalty werden hinzugefügt
+                }
+                if (y < x) //wenn nicht richtig
+                {
+                    Console.WriteLine("too small");
+                    Console.WriteLine("enter a new Number");
+                    nutzer_input = Convert.ToInt32(Console.ReadLine()); //neuer guess
+                    y = nutzer_input;
+                    counter++; //Counter erhöhen
+                }
+                if (y > x) //wenn nicht richtig
+                {
+                    Console.WriteLine("too big");
+                    Console.WriteLine("enter a new Number");
+                    nutzer_input = Convert.ToInt32(Console.ReadLine()); // neuer Guess
+                    y = nutzer_input;
+                    counter++;  //counter erhöhen
+                }
+                if (y == x) //wenn richtig
+                {
+                    number_guessed = true;
+                    Console.WriteLine("nummer gefunden");
+                    counter++; //letzten Guess auch zählen
+                    Console.WriteLine("guess count " + counter); // counter anzeigen
+                }
+            }
+```
 
 
 ## Verifikation
